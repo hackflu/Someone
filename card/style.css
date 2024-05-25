@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background-image: url("background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background-image: url("paper.jpg");
+    background-size: cover;
+    box-shadow: 5px 5px 17px 15px #8888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card1{
+    background-position: top;
+    height: 6%;
+    transform: rotate(45deg);
+}
+#card2 {
+    background-position: right bottom;
+    height: 19%;
+    transform: rotate(-10deg);
+
+
+}
+
+#card3 {
+    background-position: left top;
+    height: 28%;
+}
+
+#card4 {
+    background-position: center;
+    height: 21%;
+    transform: rotate(45deg);
+}
+
+#card5 {
+    background-position: right center;
+    height: 18%;
+}
+
+#card6 {
+    background-position: right center;
+    height: 16%;
+    transform: rotate(10deg);
+
+}
+
+#card7 {
+    background-position: right center;
+    height: 10%;
+}
+
+p {
+    font-size: 1.9rem;
+    text-align: center;
+    font-weight: 700;
+    color: rgba(9, 49, 250, 0.979);
+    font-family: "Zeyada", cursive;
+    line-height: 2rem;
+}
+
+/* #card6>p {
+    font-size: 1rem;
+} */

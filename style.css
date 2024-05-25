@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #f1948a, #ecf0f107);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.question {
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.6rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: bolder;
+    color: black;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+}
+
+.yes>a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    font-size: 1.8rem;
+    padding: 0.6rem 3.5rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.yes:hover {
+    border: 2px solid white;
+    background-color: rgba(7, 144, 249, 0.667);
+    color: white;
+    transform: scale(1.1, 1.1);
+}
+.no:hover{
+    margin-left:100%;
+}
